@@ -38,5 +38,6 @@ cd ~/extsrc/redislabs.gh/spark-redis
 ~/extsrc/slackhappy.gh/repo/mvn-deploy.sh -DskipTests
 cd ~/extsrc/slackhappy.gh/repo
 git add .
+git commit -m "redis-spark 0.1.1"
 git push origin mvn-repo
 ```
